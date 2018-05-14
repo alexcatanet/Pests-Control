@@ -1,6 +1,6 @@
 # Pests Control
 
-Designing and implementing a single screen app that displays information about a fictional pests service. 
+Designing and implementing a single screen app that displays information about a fictional pests service company. 
 
 ## Requirements
 
