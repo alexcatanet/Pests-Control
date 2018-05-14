@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pests.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/main_design"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/main_design"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pest" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/call_now"
+            android:src="@drawable/phone" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/menu_bar"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="55dp"
+            android:text="@string/kill_service"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/your_total_pest_ncontrol_solution"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/second_design"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_design"
+            android:contentDescription="@string/description_of_the_company"
+            android:src="@drawable/second" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="835dp"
+            android:text="@string/middle_logo"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/description_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="935dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/description_of_a_company"
+            android:textColor="@color/textColor2"
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
+
+        <Button
+            android:id="@+id/button_design"
+            android:layout_width="170dp"
+            android:layout_height="57dp"
+            android:layout_below="@id/description_company"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/buttonColor"
+            android:text="@string/book_now"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/button_design"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/about_us"
+            android:src="@drawable/third_design" />
+
+    </RelativeLayout>
+</ScrollView>

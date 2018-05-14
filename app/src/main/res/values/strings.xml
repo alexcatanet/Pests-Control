@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pests</string>
+    <string name="app_logo">app logo</string>
+    <string name="main_design">main design</string>
+    <string name="kill_service">kill pest service</string>
+    <string name="menu_bar">menu bar</string>
+    <string name="call_now">call now</string>
+    <string name="your_total_pest_ncontrol_solution">your total pest  control solution</string>
+    <string name="description_of_the_company">description of the company</string>
+    <string name="middle_logo">expert eradication,  professional service and friendly faces</string>
+    <string name="description_of_a_company">You want your home and business to be a \nsafe and comfortable place to be – but \nnot for pests!
+        Kill Pest Control has an \naward winning reputation for expertise \nand professional service. Our friendly, professionally
+        trained technicians will \narrive on time, in time, every time to solve \nyour pest problems. Our accurate quotes \nwith no hidden costs or added expenses,\nare backed by our 200% money back \nguarantee on our most popular residential  \ntreatments
+    like ant, cockroach, rat, spider, \nbedbug control and removal service. \nThat’s right. You’ll not only receive \na full refund, we’ll also pay to have your \npest problem sorted by our competition \nif you’re not satisfied with our work.</string>
+    <string name="book_now">book now</string>
+    <string name="about_us">about us</string>
+</resources>
