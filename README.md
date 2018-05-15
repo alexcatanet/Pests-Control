@@ -1,6 +1,7 @@
 # Pests Control
 
 Designing and implementing a single screen app that displays information about a fictional pests service company. 
+As a designing tool, I used Adobe XD CC.
 
 ## Requirements
 
